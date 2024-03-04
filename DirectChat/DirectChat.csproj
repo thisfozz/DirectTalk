@@ -8,4 +8,30 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Source\Закрыть_активный.png" />
+    <None Remove="Source\Закрыть_не_активный.png" />
+    <None Remove="Source\Свернуть_активный.png" />
+    <None Remove="Source\Свернуть_не_активный.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Source\Закрыть_активный.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\Закрыть_не_активный.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\Свернуть_активный.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\Свернуть_не_активный.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+
 </Project>
